@@ -1,5 +1,5 @@
 /*
-! tailwindcss v3.3.1 | MIT License | https://tailwindcss.com
+! tailwindcss v3.3.2 | MIT License | https://tailwindcss.com
 */
 
 /*
@@ -436,6 +436,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -483,6 +486,9 @@ video {
   --tw-pan-y:  ;
   --tw-pinch-zoom:  ;
   --tw-scroll-snap-strictness: proximity;
+  --tw-gradient-from-position:  ;
+  --tw-gradient-via-position:  ;
+  --tw-gradient-to-position:  ;
   --tw-ordinal:  ;
   --tw-slashed-zero:  ;
   --tw-numeric-figure:  ;
@@ -516,7 +522,172 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.bg-green-400 {
+.relative {
+  position: relative;
+}
+
+.right-0 {
+  right: 0px;
+}
+
+.top-0 {
+  top: 0px;
+}
+
+.z-10 {
+  z-index: 10;
+}
+
+.-mr-10 {
+  margin-right: -2.5rem;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.mr-4 {
+  margin-right: 1rem;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.h-4 {
+  height: 1rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-fit {
+  width: -moz-fit-content;
+  width: fit-content;
+}
+
+.rounded-3xl {
+  border-radius: 1.5rem;
+}
+
+.bg-certyfield {
   --tw-bg-opacity: 1;
-  background-color: rgb(74 222 128 / var(--tw-bg-opacity));
+  background-color: rgb(255 192 199 / var(--tw-bg-opacity));
+}
+
+.bg-creatwebsite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 244 163 / var(--tw-bg-opacity));
+}
+
+.bg-gray21 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(21 32 43 / var(--tw-bg-opacity));
+}
+
+.bg-login {
+  --tw-bg-opacity: 1;
+  background-color: rgb(217 238 225 / var(--tw-bg-opacity));
+}
+
+.bg-signup {
+  --tw-bg-opacity: 1;
+  background-color: rgb(4 170 109 / var(--tw-bg-opacity));
+}
+
+.bg-upgrade {
+  --tw-bg-opacity: 1;
+  background-color: rgb(151 99 246 / var(--tw-bg-opacity));
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.py-6 {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+.pr-3 {
+  padding-right: 0.75rem;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.font-body {
+  font-family: Source Sans Pro, sans - serif;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.leading-5 {
+  line-height: 1.25rem;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.hover\:cursor-pointer:hover {
+  cursor: pointer;
+}
+
+.hover\:bg-upgradehover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(125 83 204 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-certyfieldhover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 179 187 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-cretehover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 240 128 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-loginhover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 152 98 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-signuphover:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(5 152 98 / var(--tw-bg-opacity));
 }

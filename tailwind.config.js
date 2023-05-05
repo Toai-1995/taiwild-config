@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/w3school.html", "./src/index.html"],
+  content: ["./src/w3school.html", "./src/index.html", "./src/index.js"],
   theme: {
     extend: {
       spacing: {

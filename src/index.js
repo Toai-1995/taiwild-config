@@ -13,11 +13,21 @@ function createImageTag(source) {
   const container = document.getElementById("container");
   source.forEach((element) => {
     let tagDiv = document.createElement("div");
-    let tagImage = document.createElement("img");
-    tagImage.className = "w-full h-full";
-    tagImage.src = element;
-    tagImage.alt = "image";
-    tagDiv.appendChild(tagImage);
+    let tagChildImage = document.createElement("img");
+    let tagFrontImage = document.createElement("div");
+
+    tagDiv.className = "cursor-pointer flipper relative";
+
+    tagFrontImage.className = "w-full h-full front bg-slate-100 absolute";
+
+    tagChildImage.className = "w-full h-full back absolute";
+    tagChildImage.src = element;
+    tagChildImage.alt = "image";
+
+    tagDiv.appendChild(tagChildImage);
+    tagDiv.appendChild(tagFrontImage);
+
+    tagDiv.addEventListener("click", handleClickImage);
     container.appendChild(tagDiv);
   });
 }
@@ -31,6 +41,19 @@ function suffleArray(arr) {
     arr[j] = tmp;
   }
   return arr;
+}
+
+function handleClickImage(element) {
+  const classList = element.currentTarget.classList;
+  classList.toggle("flipped");
+  const isCorrect = false;
+  if (isCorrect) {
+    element.currentTarget.removeEventListener("click", handleClickImage);
+  } else {
+    setTimeout(() => {
+      classList.remove("flipped");
+    }, 2000);
+  }
 }
 
 function run() {
